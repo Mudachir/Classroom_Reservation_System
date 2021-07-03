@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="544.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DataViewController">
+   <children>
+      <AnchorPane prefHeight="545.0" prefWidth="839.0">
+         <children>
+            <ImageView fx:id="imageView" fitHeight="185.0" fitWidth="187.0" layoutX="25.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true" />
+            <HBox layoutX="398.0" layoutY="14.0" prefHeight="36.0" prefWidth="438.0" />
+            <HBox layoutX="398.0" layoutY="57.0" prefHeight="36.0" prefWidth="438.0" />
+            <HBox layoutX="398.0" layoutY="103.0" prefHeight="36.0" prefWidth="438.0" />
+            <HBox layoutX="398.0" layoutY="145.0" prefHeight="36.0" prefWidth="438.0" />
+            <HBox layoutX="244.0" layoutY="190.0" prefHeight="36.0" prefWidth="438.0">
+               <children>
+                  <Label fx:id="currentSemesterLabel" prefHeight="36.0" prefWidth="185.0" text="Current Semester" textFill="#6b2222">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="244.0" layoutY="237.0" prefHeight="36.0" prefWidth="438.0">
+               <children>
+                  <Label fx:id="courseCodeLabel" prefHeight="54.0" prefWidth="179.0" text="Course Code" textFill="#6b2222">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="244.0" layoutY="280.0" prefHeight="36.0" prefWidth="438.0">
+               <children>
+                  <Label fx:id="totalStudentLabel" prefHeight="54.0" prefWidth="179.0" text="Total Student" textFill="#6b2222">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="244.0" layoutY="322.0" prefHeight="36.0" prefWidth="438.0">
+               <children>
+                  <Label fx:id="purposeLabel" prefHeight="54.0" prefWidth="179.0" text="Purpose" textFill="#6b2222">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="244.0" layoutY="403.0" prefHeight="36.0" prefWidth="438.0">
+               <children>
+                  <Label fx:id="bookingDateLabel" prefHeight="54.0" prefWidth="179.0" text="Booking Date" textFill="#6b2222">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <VBox layoutX="334.0" layoutY="429.0" prefHeight="51.0" prefWidth="129.0">
+               <children>
+                  <Button fx:id="closeButtonLabel" mnemonicParsing="false" onAction="#handleCloseButtonClicked" prefHeight="29.0" prefWidth="76.0" text="Close" textAlignment="CENTER">
+                     <VBox.margin>
+                        <Insets bottom="12.0" left="32.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <Label fx:id="facultyInitialLabel" layoutX="243.0" layoutY="11.0" prefHeight="54.0" prefWidth="179.0" text="Faculty Initial" textFill="#572a2a">
+               <font>
+                  <Font name="Times New Roman Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="emailLabel" layoutX="243.0" layoutY="57.0" prefHeight="54.0" prefWidth="468.0" text="Email" textFill="#6b2222">
+               <font>
+                  <Font name="Times New Roman Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="facultyIDLabel" layoutX="243.0" layoutY="94.0" prefHeight="54.0" prefWidth="179.0" text="Faculty ID" textFill="#6b2222">
+               <font>
+                  <Font name="Times New Roman Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="departmentLabel" layoutX="243.0" layoutY="136.0" prefHeight="54.0" prefWidth="591.0" text="Department" textFill="#6b2222">
+               <font>
+                  <Font name="Times New Roman Bold" size="24.0" />
+               </font>
+            </Label>
+            <HBox layoutX="244.0" layoutY="367.0" prefHeight="36.0" prefWidth="438.0">
+               <children>
+                  <Label fx:id="classRoomLabel" prefHeight="36.0" prefWidth="186.0" text="ClassRoom Name" textFill="#6b2222">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</FlowPane>
